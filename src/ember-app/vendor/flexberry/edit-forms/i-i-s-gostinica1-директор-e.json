@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Персонал",
+      "projection": "ПерсоналL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Директор",
+  "name": "IISGostinica1ДиректорE",
+  "className": "ДиректорE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gostinica1-директор",
+      "modelProjection": "ДиректорE"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gostinica1.ODataBackend", "ODataBackend/Gostinica1.ODataBackend.csproj", "{52CE12B2-E31B-4198-A351-C01337ABB962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gostinica1.Objects", "Objects/Gostinica1.Objects.csproj", "{0EAF13B3-EA64-409D-9026-5AA03D6ADF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CE12B2-E31B-4198-A351-C01337ABB962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CE12B2-E31B-4198-A351-C01337ABB962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CE12B2-E31B-4198-A351-C01337ABB962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CE12B2-E31B-4198-A351-C01337ABB962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EAF13B3-EA64-409D-9026-5AA03D6ADF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAF13B3-EA64-409D-9026-5AA03D6ADF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAF13B3-EA64-409D-9026-5AA03D6ADF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAF13B3-EA64-409D-9026-5AA03D6ADF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

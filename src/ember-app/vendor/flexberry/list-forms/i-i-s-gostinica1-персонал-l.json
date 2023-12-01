@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-gostinica1-персонал-e",
+  "editForm": "i-i-s-gostinica1-персонал-e",
+  "external": false,
+  "caption": "Персонал",
+  "name": "IISGostinica1ПерсоналL",
+  "className": "ПерсоналL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gostinica1-персонал",
+      "modelProjection": "ПерсоналL"
+    }
+  ]
+}

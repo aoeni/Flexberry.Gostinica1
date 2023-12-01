@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гостиница",
+      "projection": "ГостиницаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Директор",
+      "projection": "ДиректорL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ТЧРаспОбСотр",
+      "projection": "ТЧРаспОбСотрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Расп об сотр",
+  "name": "IISGostinica1РаспОбСотрE",
+  "className": "РаспОбСотрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gostinica1-расп-об-сотр",
+      "modelProjection": "РаспОбСотрE"
+    }
+  ]
+}

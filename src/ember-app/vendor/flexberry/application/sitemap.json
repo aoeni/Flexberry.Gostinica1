@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Gostinica1",
+  "applicationTitle": "Gostinica1",
+  "items": [
+    {
+      "link": null,
+      "menuName": "gostinica1",
+      "caption": "Gostinica1",
+      "title": "Gostinica1",
+      "children": [
+        {
+          "link": "i-i-s-gostinica1-т-ч-оп-шт-расп-l",
+          "menuName": null,
+          "caption": "Т ч оп шт расп",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-персонал-l",
+          "menuName": null,
+          "caption": "Персонал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-гостиница-l",
+          "menuName": null,
+          "caption": "Гостиница",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-т-ч-расп-об-сотр-l",
+          "menuName": null,
+          "caption": "Т ч расп об сотр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-опр-штат-расп-l",
+          "menuName": null,
+          "caption": "Опр штат расп",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-расп-об-сотр-l",
+          "menuName": null,
+          "caption": "Расп об сотр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-директор-l",
+          "menuName": null,
+          "caption": "Директор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-gostinica1-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

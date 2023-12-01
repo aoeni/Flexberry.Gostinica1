@@ -1,0 +1,112 @@
+<h3 class="ui header">{{t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.надбавки
+      class=(if (v-get validationModel "надбавки" "isInvalid") "error")
+      label=(t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.надбавки-caption")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-надбавки=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "надбавки" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.всего
+      class=(if (v-get validationModel "всего" "isInvalid") "error")
+      label=(t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.всего-caption")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-всего=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "всего" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.персонал-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.персонал
+      displayAttributeName="фИО"
+      autocomplete=true
+      relationName="персонал"
+      projection="ПерсоналL"
+      title=(t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.персонал-caption")
+      readonly=readonly
+      componentName="персоналLookup"
+      class=(if (v-get validationModel "персонал" "isInvalid") "error")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-персонал=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "персонал" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.опрШтатРасп-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.опрШтатРасп
+      displayAttributeName="дата"
+      autocomplete=true
+      relationName="опрШтатРасп"
+      projection="ОпрШтатРаспL"
+      title=(t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.опрШтатРасп-caption")
+      readonly=readonly
+      componentName="опрШтатРаспLookup"
+      class=(if (v-get validationModel "опрШтатРасп" "isInvalid") "error")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-опрШтатРасп=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "опрШтатРасп" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.должности-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.должности
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="должности"
+      projection="ДолжностиL"
+      title=(t "forms.i-i-s-gostinica1-т-ч-оп-шт-расп-e.должности-caption")
+      readonly=readonly
+      componentName="должностиLookup"
+      class=(if (v-get validationModel "должности" "isInvalid") "error")
+      data-test-i-i-s-gostinica1-т-ч-оп-шт-расп-e-должности=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "должности" "message")}}
+  </div>
+</form>

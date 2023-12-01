@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Гостиница",
+      "projection": "ГостиницаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Директор",
+      "projection": "ДиректорL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Опр штат расп",
+  "name": "IISGostinica1ОпрШтатРаспE",
+  "className": "ОпрШтатРаспE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gostinica1-опр-штат-расп",
+      "modelProjection": "ОпрШтатРаспE"
+    }
+  ]
+}

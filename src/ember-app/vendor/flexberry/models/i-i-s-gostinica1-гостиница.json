@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISGostinica1Гостиница",
+  "modelName": "i-i-s-gostinica1-гостиница",
+  "className": "Гостиница",
+  "nameSpace": "IIS.Gostinica1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "оКПО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "оргПравФорма",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ГостиницаE",
+      "modelName": "i-i-s-gostinica1-гостиница",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "оргПравФорма",
+          "caption": "Орг прав форма",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "оКПО",
+          "caption": "ОКПО",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ГостиницаL",
+      "modelName": "i-i-s-gostinica1-гостиница",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "оргПравФорма",
+          "caption": "Орг прав форма",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "оКПО",
+          "caption": "ОКПО",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,1 @@
+docker-compose -p gostinica1 up -d
